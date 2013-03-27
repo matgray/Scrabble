@@ -1,0 +1,279 @@
+BODY, HTML {
+    height: 100%;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #777777;
+    margin: 40px 0px 70px;
+    text-align: center;
+}
+
+.gradLarge {
+    font-family: 'Graduate', serif;
+    color: black;
+    font-size: 150%
+}
+
+.currentTurn {
+    color: green;
+}
+
+.notTurn {
+    color: black;
+}
+
+.gradRegular {
+    font-family: 'Graduate', serif;
+    color: gray;
+    font-size: 100%
+}
+
+.sendButton {
+    display: block;
+    font-size: 16pt;
+}
+
+.cent {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gwt-TextBox {
+    padding: 5px 4px;
+    border: 1px solid #ccc;
+    border-top: 1px solid #999;
+    font-size: small;
+    font-family: 'Graduate', serif;
+}
+
+.tbCenter {
+    text-align: center;
+    font-family: 'Graduate', serif;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.validTextBox {
+    color: green;
+}
+
+.invalidTextBox {
+    color: red;
+}
+
+/*@-webkit-keyframes greenPulse {*/
+/*from { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }*/
+/*50% { background-color: #91bd09; -webkit-box-shadow: 0 0 18px #91bd09; }*/
+/*to { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }*/
+/*}*/
+/*@-webkit-keyframes bluePulse {*/
+/*from { background-color: #007d9a; -webkit-box-shadow: 0 0 9px #333; }*/
+/*50% { background-color: #2daebf; -webkit-box-shadow: 0 0 18px #2daebf; }*/
+/*to { background-color: #007d9a; -webkit-box-shadow: 0 0 9px #333; }*/
+/*}*/
+
+/*@-webkit-keyframes redPulse {*/
+/*from { background-color: #bc330d; -webkit-box-shadow: 0 0 9px #333; }*/
+/*50% { background-color: #e33100; -webkit-box-shadow: 0 0 18px #e33100; }*/
+/*to { background-color: #bc330d; -webkit-box-shadow: 0 0 9px #333; }*/
+/*}*/
+
+/*@-webkit-keyframes magentaPulse {*/
+/*from { background-color: #630030; -webkit-box-shadow: 0 0 9px #333; }*/
+/*50% { background-color: #a9014b; -webkit-box-shadow: 0 0 18px #a9014b; }*/
+/*to { background-color: #630030; -webkit-box-shadow: 0 0 9px #333; }*/
+/*}*/
+
+@-webkit-keyframes orangePulse {
+from { background-color: #d45500; -webkit-box-shadow: 0 0 9px #333; }
+50% { background-color: #ff5c00; -webkit-box-shadow: 0 0 18px #ff5c00; }
+to { background-color: #d45500; -webkit-box-shadow: 0 0 9px #333; }
+}
+
+/*@-webkit-keyframes orangellowPulse {*/
+/*from { background-color: #fc9200; -webkit-box-shadow: 0 0 9px #333; }*/
+/*50% { background-color: #ffb515; -webkit-box-shadow: 0 0 18px #ffb515; }*/
+/*to { background-color: #fc9200; -webkit-box-shadow: 0 0 9px #333; }*/
+/*}*/
+
+/*a.green.button {*/
+/*-webkit-animation-name: greenPulse;*/
+/*-webkit-animation-duration: 2s;*/
+/*-webkit-animation-iteration-count: infinite;*/
+/*}*/
+
+.orange {
+    font-family: 'Graduate', serif;
+    font-size: 200%;
+    -webkit-animation-name: orangePulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.cellTableCell {
+    font-family: 'Graduate', serif;
+}
+
+.gwt-Label {
+    font-family: 'Graduate', serif;
+    color: black;
+}
+
+.gwt-Button {
+    margin: 0;
+    padding: 5px 7px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #bbb;
+    border-bottom: 1px solid #a0a0a0;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    font-family: 'Graduate', serif !important;
+    color: black;
+}
+
+.scrabbleRegular {
+    margin: 0;
+    padding: 5px 7px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #bbb;
+    border-bottom: 1px solid #a0a0a0;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    font-family: 'Graduate', serif !important;
+    font-size: 200%;
+    color: black;
+}
+
+.scrabbleNWord {
+    background-color: #dedede;
+    margin: 0;
+    padding: 5px 7px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #ff09da;
+    border-bottom: 1px solid #ff09da;
+    border-radius: 3px;
+    font-family: 'Graduate', serif !important;
+    font-size: 200%;
+    color: black;
+}
+
+.scrabbleRoot {
+    background-color: #ff999b;
+    margin: 0;
+    padding: 5px 7px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #ff4f4d;
+    border-bottom: 1px solid #ff4f4d;
+    border-radius: 3px;
+    font-family: 'Graduate', serif !important;
+    font-size: 200%;
+    color: black;
+}
+
+.scrabbleDoubleLetter {
+    background-color: #83cfff;
+    margin: 0;
+    padding: 5px 7px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #26aaff;
+    border-bottom: 1px solid #26aaff;
+    border-radius: 3px;
+    font-family: 'Graduate', serif !important;
+    font-size: 200%;
+    color: black;
+}
+
+.scrabbleTripleLetter {
+    background-color: #b7b8ff;
+    margin: 0;
+    padding: 5px 7px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #ca73ff;
+    border-bottom: 1px solid #ca73ff;
+    border-radius: 3px;
+    font-family: 'Graduate', serif !important;
+    font-size: 200%;
+    color: black;
+}
+
+.scrabbleDoubleWord {
+    background-color: #ffb3f2;
+    margin: 0;
+    padding: 5px 7px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #ff2be8;
+    border-bottom: 1px solid #ff2be8;
+    border-radius: 3px;
+    font-family: 'Graduate', serif !important;
+    font-size: 200%;
+    color: black;
+}
+
+.scrabbleTripleWord {
+    background-color: #6add64;
+    margin: 0;
+    padding: 5px 7px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #40bf3a;
+    border-bottom: 1px solid #40bf3a;
+    border-radius: 3px;
+    font-family: 'Graduate', serif !important;
+    font-size: 200%;
+    color: black;
+}
+
+.scrabbleNWord {
+    background-color: #ffb2ff;
+    margin: 0;
+    padding: 5px 7px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #ff09da;
+    border-bottom: 1px solid #ff09da;
+    border-radius: 3px;
+    font-family: 'Graduate', serif !important;
+    font-size: 200%;
+    color: black;
+}
+
+.scrabbleNLetter {
+    background-color: #ffeb9f;
+    margin: 0;
+    padding: 5px 7px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #e5d627;
+    border-bottom: 1px solid #e5d627;
+    border-radius: 3px;
+    font-family: 'Graduate', serif !important;
+    font-size: 200%;
+    color: black;
+}
+
+.gwt-DialogBox {
+    width: 400px;
+}
+
+.dialogVPanel {
+    margin: 5px;
+}
+
+.serverResponseLabelError {
+    color: red;
+}
+
+#closeButton {
+    margin: 15px 6px 6px;
+}
