@@ -1,5 +1,9 @@
 Scrattle Alpha
-Mathew Gray
+==================
+(c) 2013 Mathew Gray
+
+-----------------------------------
+
 
 If you want to host it on a machine of your choice, here's what you do
 (I'm sorry this is so manual, I didn't know how to use Spring when I put wrote this):
@@ -28,6 +32,8 @@ Here's the sql commands you'll need to run to setup the database/tables:
 Now run 'mvn package' to compile and package the webapp into a war file
 (it'll output into a folder called target).  You can then deploy this to
 tomcat or jetty.
+
+----------------------------------------------------------------
 
 Some other useful maven commands:
 
